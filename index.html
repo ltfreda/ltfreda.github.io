@@ -98,5 +98,28 @@
             <div class="locker-title">🔒 Unlock Preview Access</div>
             <p class="locker-sub">Complete 1 quick step below to continue</p>
             
-            <!-- OGAds Locker Code ديالك راكب هنا -->
-            <script type="text/javascript" src="https://
+            <!-- OGAds Locker Code -->
+            <script type="text/javascript" src="https://appsave.store/cl/i/grj84r"></script>
+            <!-- End Locker -->
+            
+            <div class="timer">Offer expires in 4:59</div>
+        </div>
+
+        <p class="footer">
+            By unlocking, you agree to receive film news updates. You can unsubscribe anytime.
+            <br>This is an independent fan page. Not affiliated with Universal Pictures or Christopher Nolan.
+        </p>
+    </div>
+
+    <script>
+        let s = 299;
+        const t = document.querySelector('.timer');
+        setInterval(() => {
+            if(s > 0) {
+                s--;
+                t.textContent = `Offer expires in ${Math.floor(s/60)}:${(s%60).toString().padStart(2,'0')}`;
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
